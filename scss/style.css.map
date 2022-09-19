@@ -3,7 +3,8 @@
     "mappings": "",
     "sources": [
         "style.scss",
-        "media-querry/_media-querry.scss"
+        "media-querry/_media-querry.scss",
+        "variables/_color-palette.scss"
     ],
     "names": [],
     "file": "style.css"
