@@ -5,6 +5,7 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Rubik;
 }
 
 html {
@@ -12,6 +13,9 @@ html {
 }
 
 body {
+  margin: 5rem;
+  border: 1px solid red;
+  height: 100vh;
   line-height: 1.5;
 }
 
@@ -29,5 +33,72 @@ body {
   font-weight: bold;
   font-style: normal;
   font-display: swap;
+}
+
+.link {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff3400;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .link {
+    font-size: 1.5rem;
+  }
+}
+
+.link::after {
+  content: "-->";
+  margin-left: 1rem;
+  -webkit-transition: margin-left 0.15s ease-in-out;
+  transition: margin-left 0.15s ease-in-out;
+}
+
+.link:hover::after {
+  margin-left: 2rem;
+}
+
+.badge {
+  white-space: nowrap;
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 2rem;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .badge {
+    font-size: 1.5rem;
+  }
+}
+
+.badge--small {
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 768px) {
+  .badge--small {
+    font-size: 1.2rem;
+  }
+}
+
+.badge--primary {
+  background-color: #2584ff;
+}
+
+.badge--secondary {
+  background-color: #00d9ff;
+}
+
+.badge--primary-darken {
+  background-color: #1178ff;
+}
+
+.badge--secondary-darken {
+  background-color: #00c8eb;
 }
 /*# sourceMappingURL=style.css.map */

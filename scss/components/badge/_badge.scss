@@ -1,0 +1,34 @@
+.badge {
+  white-space: nowrap;
+
+  font-size: 2rem;
+  @include tablet-and-desktop {
+    font-size: 1.5rem;
+  }
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  border-radius: 2rem;
+  color: #fff;
+}
+.badge--small {
+  font-size: 1.6rem;
+  @include tablet-and-desktop {
+    font-size: 1.2rem;
+  }
+}
+.badge--primary {
+  background-color: $colorPrimary;
+}
+.badge--secondary {
+  background-color: $colorSecondary;
+}
+.badge--primary-darken {
+  background-color: darken($color: $colorPrimary, $amount: 4%);
+}
+.badge--secondary-darken {
+  background-color: darken($color: $colorSecondary, $amount: 4%);
+}
