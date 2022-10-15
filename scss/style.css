@@ -16,6 +16,7 @@ body {
   margin: 5rem;
   border: 1px solid red;
   height: 100vh;
+  width: 50%;
   line-height: 1.5;
 }
 
@@ -263,6 +264,37 @@ body {
 
 .input-group .btn {
   margin: 0.5rem;
+}
+
+.card {
+  height: 500px;
+  -webkit-box-shadow: 0 0 20px 10px #f3f3f3;
+          box-shadow: 0 0 20px 10px #f3f3f3;
+  -webkit-transition: all 0.16s ease-in-out;
+  transition: all 0.16s ease-in-out;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card--primary .card__header {
+  background-color: #2584ff;
+}
+
+.card--secondary .card__header {
+  background-color: #00d9ff;
+}
+
+.card__header {
+  height: 30%;
+}
+
+.card__body {
+  height: 70%;
 }
 
 .grid {
