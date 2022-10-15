@@ -150,6 +150,81 @@ body {
   height: 65px;
 }
 
+.btn {
+  cursor: pointer;
+  white-space: nowrap;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 1.8rem;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.btn--accent {
+  background-color: #ff3400;
+  color: white;
+  -webkit-transition: all 0.17s ease-in-out;
+  transition: all 0.17s ease-in-out;
+}
+
+.btn--accent:hover {
+  background-color: #cc2a00;
+}
+
+.btn--fit-content {
+  display: inline-block;
+}
+
+.btn--with-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn--with-icon .icon {
+  fill: #fff;
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.btn--with-maxwidch {
+  min-width: 150px;
+  max-width: 200px;
+}
+
+.btn--outline {
+  border: 2px solid #1b0760;
+  -webkit-transition: all 0.17s ease-in-out;
+  transition: all 0.17s ease-in-out;
+}
+
+.btn--outline:hover {
+  background-color: #1b0760;
+  color: white;
+}
+
+.btn--secondary {
+  background-color: #00d9ff;
+  color: #fff;
+  -webkit-transition: all 0.17s ease-in-out;
+  transition: all 0.17s ease-in-out;
+}
+
+.btn--secondary:hover {
+  background-color: #00aecc;
+}
+
 .grid {
   display: -ms-grid;
   display: grid;

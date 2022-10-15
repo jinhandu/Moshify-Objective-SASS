@@ -10,7 +10,7 @@
 </head>
 <body>
     <?php
-        include "scss/components/icon/icon.html"
+        include "scss/components/button/button.html"
     ?>
 </body>
 </html>
