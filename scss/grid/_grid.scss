@@ -1,0 +1,13 @@
+.grid {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.grid--1x2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--1x6-pc {
+  @include tablet-and-desktop {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}

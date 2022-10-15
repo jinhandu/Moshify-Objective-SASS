@@ -1,0 +1,25 @@
+.list {
+  list-style: none;
+  font-size: 2rem;
+  margin-left: 2rem;
+  color: $colorHeadings;
+}
+.list--tick {
+  li {
+    padding-left: 1rem;
+    margin-top: 2rem;
+  }
+  list-style-image: url(./components/list/image/tick.svg);
+}
+.list--vertical {
+  white-space: nowrap;
+  li {
+    display: inline-block;
+  }
+}
+.list--domains {
+  li {
+    font-weight: bold;
+    margin-top: 3rem;
+  }
+}

@@ -1,16 +1,15 @@
 .badge {
   white-space: nowrap;
 
-  font-size: 2rem;
-  @include tablet-and-desktop {
-    font-size: 1.5rem;
-  }
+  // font-size: 2rem;
+  // @include tablet-and-desktop {
+  //   font-size: 1.5rem;
+  // }
 
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-
   border-radius: 2rem;
   color: #fff;
 }
@@ -25,6 +24,10 @@
 }
 .badge--secondary {
   background-color: $colorSecondary;
+  padding-left: 2.2rem;
+  padding-right: 2.2rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
 }
 .badge--primary-darken {
   background-color: darken($color: $colorPrimary, $amount: 4%);
