@@ -10,7 +10,7 @@
 </head>
 <body>
     <?php
-        include "./scss/components/list/list.html"
+        include "scss/components/icon/icon.html"
     ?>
 </body>
 </html>

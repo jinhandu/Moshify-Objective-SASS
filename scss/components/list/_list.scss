@@ -9,7 +9,8 @@
     padding-left: 1rem;
     margin-top: 2rem;
   }
-  list-style-image: url(./components/list/image/tick.svg);
+  list-style-image: url(/scss/components/list/image/tick.svg);
+  // list-style-image: url(./components/list/image/tick.svg);
 }
 .list--vertical {
   white-space: nowrap;

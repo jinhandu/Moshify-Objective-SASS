@@ -1,0 +1,14 @@
+.icon {
+  width: 40px;
+  height: 40px;
+  fill: $colorPrimary;
+}
+.icon-container {
+  display: inline-flex;
+  background-color: $colorIconBg;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+  height: 65px;
+}
