@@ -225,6 +225,46 @@ body {
   background-color: #00aecc;
 }
 
+.input {
+  width: 100%;
+  display: block;
+  font-size: 2rem;
+  padding: 2rem 3rem;
+  border: none;
+  color: #1b0760;
+  outline: none;
+}
+
+.input::-webkit-input-placeholder {
+  color: #b3b3b3;
+}
+
+.input:-ms-input-placeholder {
+  color: #b3b3b3;
+}
+
+.input::-ms-input-placeholder {
+  color: #b3b3b3;
+}
+
+.input::placeholder {
+  color: #b3b3b3;
+}
+
+.input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 40px;
+  -webkit-box-shadow: 0 0 30px 20px #e6ebee;
+          box-shadow: 0 0 30px 20px #e6ebee;
+  overflow: hidden;
+}
+
+.input-group .btn {
+  margin: 0.5rem;
+}
+
 .grid {
   display: -ms-grid;
   display: grid;

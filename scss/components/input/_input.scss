@@ -1,0 +1,21 @@
+.input {
+  width: 100%;
+  display: block;
+  font-size: 2rem;
+  padding: 2rem 3rem;
+  border: none;
+  color: $colorHeadings;
+  outline: none;
+  &::placeholder {
+    color: lighten($color: gray, $amount: 20%);
+  }
+}
+.input-group {
+  display: flex;
+  border-radius: 40px;
+  box-shadow: 0 0 30px 20px #e6ebee;
+  overflow: hidden;
+  .btn {
+    margin: 0.5rem;
+  }
+}

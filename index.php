@@ -10,7 +10,7 @@
 </head>
 <body>
     <?php
-        include "scss/components/button/button.html"
-    ?>
+    include "./scss/components/input/input.html";
+ ?>
 </body>
 </html>
