@@ -13,6 +13,7 @@ html {
 }
 
 body {
+  font-size: 2rem;
   margin: 5rem;
   border: 1px solid red;
   height: 100vh;
@@ -97,7 +98,7 @@ body {
 }
 
 .badge--secondary-darken {
-  background-color: #00c8eb;
+  background-color: #00d0f5;
 }
 
 .list {
@@ -267,7 +268,6 @@ body {
 }
 
 .card {
-  height: 500px;
   -webkit-box-shadow: 0 0 20px 10px #f3f3f3;
           box-shadow: 0 0 20px 10px #f3f3f3;
   -webkit-transition: all 0.16s ease-in-out;
@@ -295,6 +295,66 @@ body {
 
 .card__body {
   height: 70%;
+}
+
+.plan {
+  margin: 3rem;
+}
+
+.plan .card__header {
+  padding: 2rem;
+  color: white;
+}
+
+.plan h3 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.plan .badge {
+  margin-left: 2rem;
+  padding: 0.5rem 1.8rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.plan .card__body {
+  padding-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.plan .btn {
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.plan__price {
+  font-size: 5rem;
+}
+
+.plan__billing-cycle {
+  font-size: 2rem;
+  opacity: 0.8;
+}
+
+.plan__slogan {
+  letter-spacing: 1px;
+}
+
+.plan--popular .card__header {
+  position: relative;
+}
+
+.plan--popular .card__header:first-child::before {
+  content: url(/scss/components/plan/image/popular.svg);
+  display: block;
+  width: 40px;
+  position: absolute;
+  top: -6px;
+  right: 5%;
 }
 
 .grid {

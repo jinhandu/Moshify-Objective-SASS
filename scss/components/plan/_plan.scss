@@ -1,0 +1,52 @@
+.plan {
+  margin: 3rem;
+  .card__header {
+    padding: 2rem;
+    color: white;
+  }
+  h3 {
+    font-size: 3rem;
+    font-weight: normal;
+  }
+  .badge {
+    margin-left: 2rem;
+    padding: 0.5rem 1.8rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  .card__body {
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .btn {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+.plan__price {
+  font-size: 5rem;
+}
+.plan__billing-cycle {
+  font-size: 2rem;
+  opacity: 0.8;
+}
+.plan__slogan {
+  letter-spacing: 1px;
+}
+.plan--popular {
+  .card__header {
+    position: relative;
+  }
+
+  .card__header:first-child::before {
+    content: url(/scss/components/plan/image/popular.svg);
+    display: block;
+    width: 40px;
+    position: absolute;
+    top: -6px;
+    right: 5%;
+  }
+}
