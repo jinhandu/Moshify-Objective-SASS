@@ -1,0 +1,29 @@
+.card.testimonial {
+  overflow: visible;
+  padding: 2rem;
+  &:hover {
+    transform: none;
+  }
+  .quote {
+    margin-left: 3rem;
+    padding: 2rem;
+  }
+}
+.testimonial__image {
+  width: 100%;
+  img {
+    width: 100%;
+  }
+  position: relative;
+  .icon-container {
+    position: absolute;
+    background-color: $colorAccent;
+    right: -30px;
+    top: 30px;
+    .icon {
+      width: 30px;
+      height: 30px;
+      fill: white;
+    }
+  }
+}

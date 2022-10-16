@@ -14,10 +14,9 @@ html {
 
 body {
   font-size: 2rem;
+  padding: 5rem;
   margin: 5rem;
-  border: 1px solid red;
   height: 100vh;
-  width: 50%;
   line-height: 1.5;
 }
 
@@ -418,6 +417,43 @@ body {
           transform: translateY(-5px);
 }
 
+.card.testimonial {
+  overflow: visible;
+  padding: 2rem;
+}
+
+.card.testimonial:hover {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.card.testimonial .quote {
+  margin-left: 3rem;
+  padding: 2rem;
+}
+
+.testimonial__image {
+  width: 100%;
+  position: relative;
+}
+
+.testimonial__image img {
+  width: 100%;
+}
+
+.testimonial__image .icon-container {
+  position: absolute;
+  background-color: #ff3400;
+  right: -30px;
+  top: 30px;
+}
+
+.testimonial__image .icon-container .icon {
+  width: 30px;
+  height: 30px;
+  fill: white;
+}
+
 .grid {
   display: -ms-grid;
   display: grid;
@@ -427,9 +463,21 @@ body {
           align-items: center;
 }
 
+.grid--1x1 {
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
 .grid--1x2 {
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (min-width: 768px) {
+  .grid--1x2-pc {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (min-width: 768px) {
