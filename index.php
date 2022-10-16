@@ -10,7 +10,7 @@
 </head>
 <body>
     <?php
-    include "scss/components/testimonial/testimonial.html";
+    include "scss/components/callout/callout.html";
  ?>
 </body>
 </html>

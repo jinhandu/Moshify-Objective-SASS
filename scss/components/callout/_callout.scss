@@ -1,0 +1,26 @@
+.callout.grid {
+  text-align: center;
+  @include tablet-and-desktop {
+    grid-template-columns: 1fr auto;
+    text-align: left;
+  }
+  background-color: $colorPrimary;
+  padding: 5rem 2rem;
+  border-radius: 10px;
+  h3 {
+    font-size: 3rem;
+  }
+  p {
+    color: #fff;
+  }
+  .btn {
+    margin-top: 5rem;
+    @include tablet-and-desktop {
+      margin-top: inherit;
+      margin-left: 5rem;
+      margin-right: 5rem;
+    }
+    justify-self: center;
+    align-self: center;
+  }
+}

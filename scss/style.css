@@ -176,6 +176,12 @@ body {
 
 .btn--fit-content {
   display: inline-block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .btn--with-icon {
@@ -452,6 +458,46 @@ body {
   width: 30px;
   height: 30px;
   fill: white;
+}
+
+.callout.grid {
+  text-align: center;
+  background-color: #2584ff;
+  padding: 5rem 2rem;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .callout.grid {
+    -ms-grid-columns: 1fr auto;
+        grid-template-columns: 1fr auto;
+    text-align: left;
+  }
+}
+
+.callout.grid h3 {
+  font-size: 3rem;
+}
+
+.callout.grid p {
+  color: #fff;
+}
+
+.callout.grid .btn {
+  margin-top: 5rem;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .callout.grid .btn {
+    margin-top: inherit;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
 }
 
 .grid {
