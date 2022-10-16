@@ -1,0 +1,17 @@
+.media-object {
+  display: flex;
+  .medie-object__icon-container {
+    flex-shrink: 0;
+    margin: 2rem;
+  }
+}
+.media-object__body {
+  h3 {
+    margin-top: 0rem;
+    color: white;
+  }
+  p {
+    margin-top: 1.5rem;
+    color: $colorTextForDarkBg;
+  }
+}

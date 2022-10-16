@@ -10,7 +10,7 @@
 </head>
 <body>
     <?php
-    include "scss/components/plan/plan.html";
+    include "scss/components/media-object/media-object.html";
  ?>
 </body>
 </html>

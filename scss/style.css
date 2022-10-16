@@ -14,6 +14,7 @@ html {
 
 body {
   font-size: 2rem;
+  background-color: black;
   margin: 5rem;
   border: 1px solid red;
   height: 100vh;
@@ -355,6 +356,28 @@ body {
   position: absolute;
   top: -6px;
   right: 5%;
+}
+
+.media-object {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.media-object .medie-object__icon-container {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin: 2rem;
+}
+
+.media-object__body h3 {
+  margin-top: 0rem;
+  color: white;
+}
+
+.media-object__body p {
+  margin-top: 1.5rem;
+  color: #7b858b;
 }
 
 .grid {
