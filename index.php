@@ -10,7 +10,8 @@
 </head>
 <body>
     <?php
-    include "scss/components/callout/callout.html";
+    include "scss/components/collapsible/collapsible.html";
  ?>
+    <script src="index.js"></script>
 </body>
 </html>

@@ -15,6 +15,7 @@ html {
 body {
   font-size: 2rem;
   padding: 5rem;
+  background-color: black;
   margin: 5rem;
   height: 100vh;
   line-height: 1.5;
@@ -497,6 +498,84 @@ body {
     margin-top: inherit;
     margin-left: 5rem;
     margin-right: 5rem;
+  }
+}
+
+.collapsible.collapsible--expanded .collapsible__menu .icon {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.collapsible.collapsible--expanded .collapsible__list {
+  max-height: 100%;
+  opacity: 1;
+}
+
+.collapsible {
+  border-bottom: 1px solid gray;
+}
+
+.collapsible__menu {
+  margin: 1rem 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr auto;
+      grid-template-columns: 1fr auto;
+}
+
+.collapsible__menu h3 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.collapsible__menu .icon {
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.collapsible__list {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.collapsible__list .list {
+  margin: 1.5rem 0rem;
+  margin-top: 0rem;
+  color: #777;
+}
+
+.collapsible__list .list li {
+  cursor: pointer;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.collapsible__list .list li:hover {
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .collapsible {
+    display: inline-block;
+    border: 0;
+  }
+  .collapsible h3 {
+    font-size: 2rem;
+  }
+  .collapsible .collapsible__list {
+    opacity: 1;
+    max-height: 100%;
+  }
+  .collapsible .collapsible__list li {
+    font-size: 1.5rem;
+  }
+  .collapsible__menu .icon {
+    display: none;
   }
 }
 
