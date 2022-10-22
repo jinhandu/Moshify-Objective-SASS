@@ -9,9 +9,14 @@
     <title>index.php</title>
 </head>
 <body>
-    <?php
-    include "scss/components/collapsible/collapsible.html";
- ?>
+    <section class="block block--streched-right">
+        <div class="container">
+        <?php
+            include "scss/components/collapsible/collapsible.html";
+         ?>
+        </div>
+    </section>
+    
     <script src="index.js"></script>
 </body>
 </html>
