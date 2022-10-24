@@ -8,15 +8,10 @@
     <link rel="stylesheet" href="./scss/style.css" />
     <title>index.php</title>
 </head>
-<body>
-    <section class="block block--streched-right">
-        <div class="container">
-        <?php
-            include "scss/components/collapsible/collapsible.html";
-         ?>
-        </div>
-    </section>
-    
+<body style="background-color: orange;">
+    <?php
+        include "scss/components/nav-bar/nav-bar.html"
+    ?>
     <script src="index.js"></script>
 </body>
 </html>

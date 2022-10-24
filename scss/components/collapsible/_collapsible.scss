@@ -1,66 +1,70 @@
-.collapsible.collapsible--expanded {
-  .collapsible__menu {
-    .icon {
-      transform: rotate(0deg);
-    }
-  }
-  .collapsible__list {
-    max-height: 100%;
-    opacity: 1;
-  }
-}
-.collapsible {
+//Skin
+.collapsible--for-footer {
   border-bottom: 1px solid gray;
-}
-.collapsible__menu {
-  margin: 1rem 0;
-  display: grid;
-  grid-template-columns: 1fr auto;
+  .collapsible__header {
+    margin: 1rem 0;
+  }
   h3 {
     font-size: 3rem;
     color: #fff;
   }
-  .icon {
-    transition: all 0.15s ease-in-out;
-    transform: rotate(-90deg);
-  }
-}
-.collapsible__list {
-  transition: all 0.5s ease-in-out;
-  opacity: 0;
-  max-height: 0;
-  overflow: hidden;
-  .list {
-    margin: 1.5rem 0rem;
-    margin-top: 0rem;
-    color: #777;
-    li {
-      cursor: pointer;
-      transition: all 0.15s ease-in-out;
-    }
-    li:hover {
-      color: #fff;
-    }
-  }
-}
-@include tablet-and-desktop {
-  .collapsible {
+  @include tablet-and-desktop {
     display: inline-block;
     border: 0;
     h3 {
       font-size: 2rem;
     }
-    .collapsible__list {
-      opacity: 1;
-      max-height: 100%;
-      li {
-        font-size: 1.5rem;
-      }
-    }
-  }
-  .collapsible__menu {
-    .icon {
+    .collapsible__icon {
       display: none;
     }
+    li {
+      font-size: 1.5rem;
+    }
+  }
+}
+// Fun - Icon rotation.
+.collapsible__icon {
+  transition: all 0.15s ease-in-out;
+  transform: rotate(-90deg);
+}
+.collapsible--expanded {
+  .collapsible__icon {
+    transform: rotate(0deg);
+  }
+}
+// Fun - Collapsible content toggle.
+.collapsible__content {
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  @include tablet-and-desktop {
+    opacity: 1;
+    max-height: 100%;
+  }
+}
+.collapsible.collapsible--expanded {
+  .collapsible__content {
+    max-height: 100%;
+    opacity: 1;
+  }
+}
+// Structure - Header
+.collapsible__header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+//Style
+.collapsible__list {
+  margin: 1.5rem 0rem;
+  margin-top: 0rem;
+  color: #777;
+  li {
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+  }
+  li:hover {
+    color: #fff;
   }
 }
