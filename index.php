@@ -10,7 +10,7 @@
 </head>
 <body style="background-color: orange;">
     <?php
-        include "scss/components/nav-bar/nav-bar.html"
+        include "scss/blocks/hero/hero.html"
     ?>
     <script src="index.js"></script>
 </body>
