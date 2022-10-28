@@ -1,0 +1,23 @@
+.domain {
+  text-align: center;
+  padding: 0 2rem;
+  h2 {
+    margin-top: 2rem;
+    color: $colorHeadings;
+    font-size: 4rem;
+    line-height: 1;
+  }
+  p {
+    color: $colorBody;
+    margin: 2rem;
+    @include tablet-and-desktop {
+      font-size: 1.8rem;
+    }
+  }
+  .container {
+    max-width: 700px;
+  }
+}
+.domain__domains {
+  font-size: 1.8rem;
+}

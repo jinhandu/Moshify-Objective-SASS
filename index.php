@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="./scss/style.css" />
     <title>index.php</title>
 </head>
-<body style="background-color: orange;">
+<body style="background-color: #fff;">
     <?php
-        include "scss/blocks/hero/hero.html"
+        include "scss/blocks/domain/domain.html"
     ?>
     <script src="index.js"></script>
 </body>

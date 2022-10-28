@@ -826,4 +826,35 @@ h1 {
     width: 100%;
   }
 }
+
+.domain {
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.domain h2 {
+  margin-top: 2rem;
+  color: #1b0760;
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.domain p {
+  color: #918ca4;
+  margin: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .domain p {
+    font-size: 1.8rem;
+  }
+}
+
+.domain .container {
+  max-width: 700px;
+}
+
+.domain__domains {
+  font-size: 1.8rem;
+}
 /*# sourceMappingURL=style.css.map */
