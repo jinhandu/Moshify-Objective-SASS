@@ -10,8 +10,9 @@
   max-width: 1140px;
 }
 .block--streched-left {
+  margin-top: -1px;
   padding-bottom: 8rem;
-  clip-path: polygon(0 0, 100% 0%, 100% 95%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
 }
 .block--streched-right {
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 95%);

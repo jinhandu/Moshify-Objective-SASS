@@ -304,7 +304,7 @@ h1 {
 }
 
 .plan {
-  margin: 3rem;
+  width: 100%;
 }
 
 .plan .card__header {
@@ -348,6 +348,11 @@ h1 {
 
 .plan__slogan {
   letter-spacing: 1px;
+}
+
+.plan--popular {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .plan--popular .card__header {
@@ -601,9 +606,10 @@ h1 {
 }
 
 .block--streched-left {
+  margin-top: -1px;
   padding-bottom: 8rem;
-  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 95%, 0% 100%);
-          clip-path: polygon(0 0, 100% 0%, 100% 95%, 0% 100%);
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
 }
 
 .block--streched-right {
@@ -746,6 +752,13 @@ h1 {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .grid--1x3-pc {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 .hero h1 {
   text-align: center;
   color: white;
@@ -828,6 +841,8 @@ h1 {
 }
 
 .domain {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
   text-align: center;
   padding: 0 2rem;
 }
@@ -856,5 +871,32 @@ h1 {
 
 .domain__domains {
   font-size: 1.8rem;
+}
+
+.block-plan {
+  margin-bottom: 5rem;
+}
+
+.block-plan .grid {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  row-gap: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .block-plan .grid {
+    -webkit-column-gap: 4rem;
+            column-gap: 4rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .block-plan .grid {
+    margin: auto;
+  }
+}
+
+.block-plan .plan {
+  max-width: 500px;
 }
 /*# sourceMappingURL=style.css.map */

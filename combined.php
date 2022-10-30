@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css-library/normalize.css" />
     <link rel="stylesheet" href="./scss/style.css" />
-    <title>index.php</title>
+    <title>Combined</title>
 </head>
-<body style="background-color: #fff;">
+<body>
     <?php
-        include "scss/blocks/plan/plan.html"
+        include "scss/blocks/nav/nav.html";
+        include "scss/blocks/hero/hero.html";
+        include "scss/blocks/domain/domain.html";
+        include "scss/blocks/plan/block-plan.html";
+
     ?>
     <script src="index.js"></script>
 </body>

@@ -20,3 +20,9 @@
     grid-template-columns: repeat(6, 1fr);
   }
 }
+
+.grid--1x3-pc {
+  @include tablet-and-desktop {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

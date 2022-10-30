@@ -1,0 +1,17 @@
+.block-plan {
+  .grid {
+    @include tablet-and-desktop {
+      column-gap: 4rem;
+    }
+    @include tablet-and-desktop {
+      margin: auto;
+    }
+    margin-left: 3rem;
+    margin-right: 3rem;
+    row-gap: 4rem;
+  }
+  .plan {
+    max-width: 500px;
+  }
+  margin-bottom: 5rem;
+}

@@ -1,5 +1,5 @@
 .plan {
-  margin: 3rem;
+  width: 100%;
   .card__header {
     padding: 2rem;
     color: white;
@@ -37,6 +37,7 @@
   letter-spacing: 1px;
 }
 .plan--popular {
+  transform: scale(1.05);
   .card__header {
     position: relative;
   }
