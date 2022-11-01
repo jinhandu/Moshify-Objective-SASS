@@ -10,7 +10,7 @@
 </head>
 <body style="background-color: #fff;">
     <?php
-        include "scss/blocks/block-testimonial/block-testimonial.html"
+        include "scss/blocks/block-footer/block-footer.html"
     ?>
     <script src="index.js"></script>
 </body>

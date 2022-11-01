@@ -4,13 +4,17 @@
     text-align: center;
   }
 }
+.block--dark {
+  background-color: black;
+}
+.block--gray {
+  background-color: $colorBlockGrayBg;
+}
 .block__tagline {
   text-align: center;
   margin: 1.5rem;
 }
-.block--dark {
-  background-color: black;
-}
+
 .container {
   margin: 0 auto;
   justify-self: center;
