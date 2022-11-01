@@ -13,6 +13,11 @@ body {
   line-height: 1.5;
   font-size: 2rem;
 }
+::selection {
+  background-color: $colorPrimary;
+  color: #fff;
+}
+
 h1,
 h2,
 h3 {

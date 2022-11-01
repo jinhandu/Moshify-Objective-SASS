@@ -17,6 +17,16 @@ body {
   font-size: 2rem;
 }
 
+::-moz-selection {
+  background-color: #2584ff;
+  color: #fff;
+}
+
+::selection {
+  background-color: #2584ff;
+  color: #fff;
+}
+
 h1,
 h2,
 h3 {
@@ -655,6 +665,7 @@ p {
 .block--streched-right {
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 95%);
           clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 95%);
+  padding-bottom: 8rem;
 }
 
 .nav {
@@ -976,5 +987,57 @@ p {
         -ms-flex-order: 2;
             order: 2;
   }
+}
+
+.block-showcase {
+  width: 100%;
+  padding-bottom: 10rem;
+}
+
+.block-showcase h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .block-showcase .grid {
+    -ms-grid-columns: (50%)[2];
+        grid-template-columns: repeat(2, 50%);
+  }
+}
+
+.block-showcase__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.block-showcase__img img {
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .block-showcase__img img {
+    width: auto;
+    max-width: 700px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .block-showcase__img {
+    -ms-grid-column-align: end;
+        justify-self: end;
+  }
+}
+
+.block-showcase__content .media-object {
+  margin-top: 3rem;
 }
 /*# sourceMappingURL=style.css.map */

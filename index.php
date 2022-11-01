@@ -10,7 +10,7 @@
 </head>
 <body style="background-color: #fff;">
     <?php
-        include "scss/blocks/block-feature/block-feature.html"
+        include "scss/blocks/block-showcase/block-showcase.html"
     ?>
     <script src="index.js"></script>
 </body>
