@@ -1,5 +1,12 @@
 .block {
   padding-top: 4rem;
+  h2 {
+    text-align: center;
+  }
+}
+.block__tagline {
+  text-align: center;
+  margin: 1.5rem;
 }
 .block--dark {
   background-color: black;

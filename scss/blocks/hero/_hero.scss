@@ -1,4 +1,7 @@
 .hero {
+  @include tablet-and-desktop {
+    padding-top: 0;
+  }
   h1 {
     text-align: center;
     color: white;
