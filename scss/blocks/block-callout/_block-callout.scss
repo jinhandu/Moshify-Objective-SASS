@@ -1,0 +1,6 @@
+.block-callout {
+  transform: translateY(1rem);
+  @include tablet-and-desktop {
+    transform: translateY(5rem);
+  }
+}

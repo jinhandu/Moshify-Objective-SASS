@@ -17,6 +17,8 @@
         include "scss/blocks/block-feature/block-feature.html";
         include "scss/blocks/block-showcase/block-showcase.html";
         include "scss/blocks/block-testimonial/block-testimonial.html";
+        include "scss/blocks/block-callout/block-callout.html";
+        include "scss/blocks/block-footer/block-footer.html";
 
     ?>
     <script src="index.js"></script>

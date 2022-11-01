@@ -10,7 +10,7 @@
 </head>
 <body style="background-color: #fff;">
     <?php
-        include "scss/blocks/block-footer/block-footer.html"
+        include "scss/blocks/block-callout/block-callout.html"
     ?>
     <script src="index.js"></script>
 </body>

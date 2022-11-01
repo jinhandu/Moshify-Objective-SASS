@@ -716,7 +716,8 @@ p {
 }
 
 .nav__logo img {
-  width: 80%;
+  width: 70%;
+  margin: 1rem;
 }
 
 .nav-toggle-icon {
@@ -773,7 +774,7 @@ p {
     margin-right: 2rem;
   }
   .collapsible__list.nav__list li {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     display: inline-block;
     border: 0;
   }
@@ -1086,6 +1087,12 @@ p {
   margin: 3rem;
 }
 
+@media screen and (min-width: 768px) {
+  .block-footer {
+    padding-top: 8rem;
+  }
+}
+
 .block-footer .collapsible {
   width: 90%;
   padding: 2rem;
@@ -1143,6 +1150,18 @@ p {
 @media screen and (min-width: 768px) {
   .block-footer__logo-tagline {
     font-size: 1.5rem;
+  }
+}
+
+.block-callout {
+  -webkit-transform: translateY(1rem);
+          transform: translateY(1rem);
+}
+
+@media screen and (min-width: 768px) {
+  .block-callout {
+    -webkit-transform: translateY(5rem);
+            transform: translateY(5rem);
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,7 @@
 .block-footer {
+  @include tablet-and-desktop {
+    padding-top: 8rem;
+  }
   .collapsible {
     width: 90%;
     padding: 2rem;
