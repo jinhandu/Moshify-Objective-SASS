@@ -14,6 +14,7 @@
         include "scss/blocks/hero/hero.html";
         include "scss/blocks/domain/domain.html";
         include "scss/blocks/plan/block-plan.html";
+        include "scss/blocks/block-feature/block-feature.html";
 
     ?>
     <script src="index.js"></script>

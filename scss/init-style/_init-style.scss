@@ -19,6 +19,10 @@ h3 {
   color: $colorHeadings;
   margin: 0;
 }
+h2 {
+  font-size: 4rem;
+  line-height: 1;
+}
 h3 {
   font-size: 2.8rem;
   @include tablet-and-desktop {

@@ -5,8 +5,15 @@
     color: white;
   }
   h3 {
-    font-size: 3rem;
+    font-size: 2.4rem;
+    @include tablet-and-desktop {
+      font-size: 1.4rem;
+    }
+    color: white;
     font-weight: normal;
+  }
+  p {
+    color: white;
   }
   .badge {
     margin-left: 2rem;

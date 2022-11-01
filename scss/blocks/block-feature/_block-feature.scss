@@ -1,5 +1,23 @@
-.feature {
-  h2 {
-    color: red;
+.block-feature__heading {
+  text-align: center;
+  margin: 2rem;
+}
+.block-feature__tagline {
+  margin: 2rem 0.5rem;
+  text-align: center;
+}
+.feature-group {
+  margin: 4rem;
+  row-gap: 8rem;
+  column-gap: 2rem;
+}
+.feature-group__img {
+  width: 100%;
+}
+.feature-group:nth-of-type(even) {
+  .feature {
+    @include tablet-and-desktop {
+      order: 2;
+    }
   }
 }
