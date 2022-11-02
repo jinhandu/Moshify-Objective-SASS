@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./aos-animation/aos.css">
     <link rel="stylesheet" href="./css-library/normalize.css" />
     <link rel="stylesheet" href="./scss/style.css" />
-    <title>Jinhan Du Project</title>
-    <link rel="icon" type="image/png" href="./img/burger.png">
+    <title>Combined</title>
 </head>
 <body>
     <?php
@@ -21,11 +19,8 @@
         include "scss/blocks/block-testimonial/block-testimonial.html";
         include "scss/blocks/block-callout/block-callout.html";
         include "scss/blocks/block-footer/block-footer.html";
+
     ?>
     <script src="index.js"></script>
-    <script src="./aos-animation/aos.js"></script>
-    <script>
-    AOS.init();
-    </script>
 </body>
 </html>
