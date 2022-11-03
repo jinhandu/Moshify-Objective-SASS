@@ -1,3 +1,5 @@
+@import url(/aos-animation/aos.css);
+@import url(/css-library/normalize.css);
 *,
 *::before,
 *::after {
@@ -70,7 +72,7 @@ p {
 
 @font-face {
   font-family: "Rubik";
-  src: url("../fonts/Rubik-Bold.woff2") format("woff2"), url("R../fonts/Rubik-Bold.woff") format("woff");
+  src: url("../fonts/Rubik-Bold.woff2") format("woff2"), url("../fonts/Rubik-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
